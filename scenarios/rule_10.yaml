@@ -1,0 +1,17 @@
+"Actors":
+  "Ego vehicle":
+    "Behavior": "go forward"
+    "Position":
+      "Position reference": "speed limit sign"
+      "Position relation": "behind"
+    "Type": "car"
+"Environment":
+  "Time": "daytime"
+  "Weather": "sunny"
+"Oracle":
+  "lateral": "keep lane"
+  "longitudinal": "decelerate"
+"Road network":
+  "Road marker": "None"
+  "Road type": "straight road"
+  "Traffic signs": "speed limit sign"

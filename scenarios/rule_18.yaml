@@ -1,0 +1,17 @@
+"Actors":
+  "Ego vehicle":
+    "Behavior": "decelerate"
+    "Position":
+      "Position reference": "roundabout"
+      "Position relation": "behind"
+    "Type": "car"
+"Environment":
+  "Time": "daytime"
+  "Weather": "sunny"
+"Oracle":
+  "lateral": "None"
+  "longitudinal": "decelerate"
+"Road network":
+  "Road marker": "None"
+  "Road type": "roundabout"
+  "Traffic signs": "None"

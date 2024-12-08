@@ -1,0 +1,23 @@
+"Actors":
+  "Ego vehicle":
+    "Behavior": "change lane to right"
+    "Position":
+      "Position reference": "two lane road"
+      "Position relation": "left"
+    "Type": "car"
+  "Other actor 1":
+    "Behavior": "go forward"
+    "Position":
+      "Position reference": "ego vehicle"
+      "Position relation": "right"
+    "Type": "car"
+"Environment":
+  "Time": "daytime"
+  "Weather": "sunny"
+"Oracle":
+  "lateral": "change lane to right"
+  "longitudinal": "None"
+"Road network":
+  "Road marker": "broken line"
+  "Road type": "two lane road"
+  "Traffic signs": "None"

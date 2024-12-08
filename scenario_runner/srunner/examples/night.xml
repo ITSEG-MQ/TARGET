@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<scenarios>
+    <scenario name="Night" type="Night" town="Town10HD_Opt">
+        <ego_vehicle x="107" y="133" z="0.5" yaw="0" model="vehicle.lincoln.mkz_2017" />
+        <weather cloudiness="0" precipitation="0" precipitation_deposits="0" wind_intensity="0" sun_azimuth_angle="0" sun_altitude_angle="25" />
+        <destination x="200" y="133" z="0" yaw="90"/>
+    </scenario>
+    <scenario name="Night_2" type="Night" town="Town10HD_Opt">
+        <ego_vehicle x="40.389641" y="41.945499" z="2.000000" yaw="89.248909" model="vehicle.lincoln.mkz_2017" />
+        <other_actor x="58.052273" y="66.322777" z="2.000000" yaw="180.596741" model="vehicle.lincoln.mkz_2017" />
+        <weather cloudiness="0" precipitation="0" precipitation_deposits="0" wind_intensity="0" sun_azimuth_angle="0" sun_altitude_angle="25" />
+        <destination x="40.39" y="100" z="2" yaw="90"/>
+
+    </scenario>
+</scenarios>

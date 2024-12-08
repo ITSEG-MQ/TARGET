@@ -1,0 +1,23 @@
+"Actors":
+  "Ego vehicle":
+    "Behavior": "decelerate"
+    "Position":
+      "Position reference": "None"
+      "Position relation": "None"
+    "Type": "car"
+  "Other actor 1":
+    "Behavior": "go forward"
+    "Position":
+      "Position reference": "ego vehicle"
+      "Position relation": "front"
+    "Type": "car"
+"Environment":
+  "Time": "nighttime"
+  "Weather": "sunny"
+"Oracle":
+  "lateral": "None"
+  "longitudinal": "decelerate"
+"Road network":
+  "Road marker": "None"
+  "Road type": "straight road"
+  "Traffic signs": "None"

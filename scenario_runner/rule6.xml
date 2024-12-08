@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='us-ascii'?>
+<scenarios><scenario name="rule6" type="rule6" town="Town10HD_Opt"><ego_vehicle model="vehicle.tesla.model3" x="26.435720443725586" y="16.757444381713867" z="0.5" yaw="180.15919494628906" /><weather cloudiness="0" precipitation="0" precipitation_deposits="0" wind_intensity="0" sun_altitude_angle="25" sun_azimuth_angle="0" /><other_actor x="16.435758590698242" y="16.729660034179688" z="0.5" yaw="180.15919494628906" model="vehicle.lincoln.mkz_2017" /></scenario></scenarios>

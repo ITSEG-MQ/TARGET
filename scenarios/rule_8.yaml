@@ -1,0 +1,17 @@
+"Actors":
+  "Ego vehicle":
+    "Behavior": "go forward"
+    "Position":
+      "Position reference": "traffic light"
+      "Position relation": "behind"
+    "Type": "car"
+"Oracle":
+  "lateral": "None"
+  "longitudinal": "stop"
+"Environment":
+  "Time": "daytime"
+  "Weather": "sunny"
+"Road network":
+  "Road marker": "None"
+  "Road type": "intersection"
+  "Traffic signs": "traffic light"

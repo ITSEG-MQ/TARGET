@@ -1,0 +1,23 @@
+"Actors":
+  "Ego vehicle":
+    "Behavior": "go forward"
+    "Position":
+      "Position reference": "crosswalk"
+      "Position relation": "behind"
+    "Type": "car"
+  "Other actor 1":
+    "Behavior": "go forward"
+    "Position":
+      "Position reference": "crosswalk"
+      "Position relation": "on"
+    "Type": "pedestrian"
+"Environment":
+  "Time": "daytime"
+  "Weather": "sunny"
+"Oracle":
+  "lateral": "None"
+  "longitudinal": "yield"
+"Road network":
+  "Road marker": "None"
+  "Road type": "crosswalk"
+  "Traffic signs": "None"

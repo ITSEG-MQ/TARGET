@@ -1,0 +1,23 @@
+"Actors":
+  "Ego vehicle":
+    "Behavior": "turn left"
+    "Position":
+      "Position reference": "intersection"
+      "Position relation": "behind"
+    "Type": "car"
+  "Other actor 1":
+    "Behavior": "go forward"
+    "Position":
+      "Position reference": "intersection"
+      "Position relation": "opposite"
+    "Type": "car"
+"Environment":
+  "Time": "daytime"
+  "Weather": "sunny"
+"Oracle":
+  "lateral": "None"
+  "longitudinal": "yield"
+"Road network":
+  "Road marker": "None"
+  "Road type": "intersection"
+  "Traffic signs": "None"

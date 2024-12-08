@@ -1,0 +1,5 @@
+export PYTHONPATH=$PYTHONPATH:/media/yao/17c1bbfa-4cdf-4d43-967a-a3e86f29a8e7/ads_testing/carla_0.9.12/PythonAPI
+export PYTHONPATH=$PYTHONPATH:/media/yao/17c1bbfa-4cdf-4d43-967a-a3e86f29a8e7/ads_testing/carla_0.9.12/PythonAPI/carla/agents
+export PYTHONPATH=$PYTHONPATH:/media/yao/17c1bbfa-4cdf-4d43-967a-a3e86f29a8e7/ads_testing/carla_0.9.12/PythonAPI/carla
+export PYTHONPATH=$PYTHONPATH:/media/yao/17c1bbfa-4cdf-4d43-967a-a3e86f29a8e7/ads_testing/TARGET/carla_challenge_leaderboard
+export SCENARIO_RUNNER_ROOT=$PYTHONPATH:/media/yao/17c1bbfa-4cdf-4d43-967a-a3e86f29a8e7/ads_testing/TARGET/scenario_runner

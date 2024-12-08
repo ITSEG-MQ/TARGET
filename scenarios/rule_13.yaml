@@ -1,0 +1,17 @@
+"Actors":
+  "Ego vehicle":
+    "Behavior": "decelerate"
+    "Position":
+      "Position reference": "do not enter sign"
+      "Position relation": "behind"
+    "Type": "car"
+"Environment":
+  "Time": "daytime"
+  "Weather": "sunny"
+"Oracle":
+  "lateral": "None"
+  "longitudinal": "stop"
+"Road network":
+  "Road marker": "None"
+  "Road type": "straight road"
+  "Traffic signs": "do not enter sign"
