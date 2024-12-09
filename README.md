@@ -1,5 +1,5 @@
 # TARGET
-
+This is the repository for the work "TARGET: Traffic Rule-based Test Generation for Autonomous Driving Systems".
 
 
 ### Prerequisites
@@ -24,6 +24,38 @@
 ### Generate new test scenarios
 1. Run `python rule_parse.py` to generate scenario descriptions for rules in `rule_parser/rules.txt`, which is corresponding to the provided scenario files in `scenarios/`.
 2. If you want to generate scenario descriptions using Llama, run your LLM model with `ollama run <llama_model>` (e.g. `ollama run llama3.1:70b`) and run `python rule_parse.py --model llama`.
+
+### Scenario Description DSL
+In the work, we propose a scenario description DSL to describe functional test scenario derived from traffic rules. The DSL in code is implemented in YAML format. The syntax and an example is as follows:
+```yaml
+"Actors":
+  "Ego vehicle":
+    "Behavior": "turn left"
+    "Position":
+      "Position reference": "intersection"
+      "Position relation": "behind"
+    "Type": "car"
+  "Other actor 1":
+    "Behavior": "go forward"
+    "Position":
+      "Position reference": "intersection"
+      "Position relation": "opposite"
+    "Type": "car"
+"Environment":
+  "Time": "daytime"
+  "Weather": "sunny"
+"Oracle":
+  "lateral": "None"
+  "longitudinal": "yield"
+"Road network":
+  "Road marker": "None"
+  "Road type": "intersection"
+  "Traffic signs": "None"
+```
+The above scenario description describes a scenario where the ego vehicle turns left at an intersection and the other vehicle goes forward at the same time, which is derived from the traffic rule "when turning left, always yield the right-of-way to any vehicle coming straight through from the other direction". In the functional test scenario, no parameter values need to be specified. The scenario parser in `scenario_runner` will identify the parameter values based on the scenario description and the map information.
+
+Scenarios for testing ADSs are provided in `scenarios/`, and the corresponding traffic rules are provided in `rule_parser/rules.txt`. The full list of traffic rules to evaluate the effectiveness of LLM-based rule parser is provided in the [supplementary material](https://docs.google.com/document/d/1Xyr6hDOQb-ooNnwY71yE5w3pOiZpmD-7n17DfqyzAy8/edit?tab=t.0).
+
 
 
 
